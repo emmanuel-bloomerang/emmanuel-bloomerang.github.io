@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://core.spreedly.com/v1/embedded/number-frame.html?v=1.8&client=express -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Spreedly Number Iframe</title>
+  <style type="text/css">
+    input {
+      background: transparent;
+      border-style:none;
+    }
+    body {
+      background: transparent;
+      margin: 0px;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type='number'] {
+      -moz-appearance:textfield;
+    }
+    input:invalid, textarea:invalid{
+      box-shadow: none;
+    }
+    input:focus {
+      outline: none;
+    }
+    .visuallyhidden {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  </style>
+  <script src="./number-frame-1.8.min.js.download"></script>
+
+</head>
+<body>
+  <form accept-charset="UTF-8" action="javascript:void(0);" id="number-form" onsubmit="return false;">
+    <label for="card_number" class="visuallyhidden" id="number_label">Card Number</label>
+    <input type="tel" pattern="[0-9]*" name="card_number" id="card_number" autocomplete="off" size="19" placeholder="4111 1111 1111 1111" style="width: 100%; height: 100%; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin-top: -5px; font-size: 93.75%;">
+  </form>
+
+  <script>
+    setUpNumber();
+  </script>
+
+
+</body></html>
